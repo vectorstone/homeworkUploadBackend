@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!--sql映射文件
+namespace="sql语句的地址"
+-->
+<mapper namespace="com.atguigu.system.mapper.SysPostMapper">
+    <sql id="column">
+        id, post_code, name, description, status, create_time, update_time, is_deleted
+    </sql>
+    <sql id="commonSql">
+        and is_deleted = 0 order by id asc
+    </sql>
+    <select id="getPageList" resultType="SysPost">
+        select <include refid="column"/>
+            from sys_post
+        <where>
+            <if test="vo.postCode != null and vo.postCode != ''">
+                and post_code = #{vo.postCode}
+            </if>
+            <if test="vo.name != null and vo.name != ''">
+                and name = #{vo.name}
+            </if>
+            <if test="vo.status != null">
+                and status = #{vo.status}
+            </if>
+            <include refid="commonSql"/>
+        </where>
+    </select>
+</mapper>

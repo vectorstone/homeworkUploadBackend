@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.atguigu.system.mapper.SysUserMapper">
+    <sql id="column">
+    id,username,password,name,phone,head_url,dept_id, post_id, description, status,create_time, update_time, is_deleted
+    </sql>
+    <sql id="commonSql">
+        and is_deleted = 0
+            order by id asc
+    </sql>
+    <select id="selectPage" resultType="SysUser">
+        select
+        <include refid="column"/>
+            from sys_user
+        <where>
+            <if test="vo.keyword != null and vo.keyword != ''">
+                and (
+                    username like concat('%',#{vo.keyword},'%') or
+                    name like concat('%',#{vo.keyword},'%') or
+                    phone like concat('%',#{vo.keyword},'%')
+                )
+            </if>
+            <if test="vo.createTimeBegin != null and vo.createTimeBegin != ''">
+                and create_time >= #{vo.createTimeBegin}
+            </if>
+            <if test="vo.createTimeEnd != null and vo.createTimeEnd != ''">
+                and create_time &lt;= #{vo.createTimeEnd}
+            </if>
+            <include refid="commonSql"/>
+        </where>
+    </select>
+</mapper>
