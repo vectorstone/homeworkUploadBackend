@@ -1,22 +1,27 @@
 package com.atguigu.system;
 
+import com.atguigu.common.util.MD5;
 import com.atguigu.system.mapper.SysRoleMapper;
 import com.atguigu.model.system.SysRole;
 import com.atguigu.system.mapper.SysUserRoleMapper;
 import com.atguigu.system.service.SysRoleService;
 import com.baomidou.mybatisplus.core.conditions.Wrapper;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
+import org.apache.commons.lang3.StringUtils;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 
 import java.util.List;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
 /**
  * @Description:
  * @Author: Gavin
  * @Date: 6/6/2023 3:59 PM
  */
-@SpringBootTest
+// @SpringBootTest
 public class FunctionTest {
     @Autowired
     private SysRoleMapper sysRoleMapper;
@@ -72,6 +77,20 @@ public class FunctionTest {
     @Test
     public void test7(){
         //UPDATE sys_user_role SET is_deleted=1 WHERE id=? AND is_deleted=0
-        sysUserRoleMapper.deleteById(2);
+        // sysUserRoleMapper.deleteById(2);
+        String encrypt = MD5.encrypt("fengge666");
+        System.out.println("encrypt = " + encrypt);
+    }
+    @Test
+    void test8(){
+        //判断字符串里面是否包含中文的测试
+        //有的人不删除提示的那个内容,所以增加一个判断头像的链接中是否包含中文
+        String str = "sdfsdfsf8w3!@2323,.,mdfdf";
+        Pattern p = Pattern.compile("[\u4E00-\u9FA5|\\！|\\，|\\。|\\（|\\）|\\《|\\》|\\“|\\”|\\？|\\：|\\；|\\【|\\】]");
+        Matcher m = p.matcher(str);
+
+        if (m.find()){
+            System.out.println("包含中文");
+        }
     }
 }

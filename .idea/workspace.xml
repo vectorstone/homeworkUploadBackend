@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="cc7424d0-e257-4185-8cc8-71180c30ac47" name="Changes" comment="本地仓库的第一次修改">
+      <change afterPath="$PROJECT_DIR$/common/common-util/src/main/java/com/atguigu/common/util/BusinessException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/common-util/src/main/java/com/atguigu/common/util/CookieUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/common-util/src/main/java/com/atguigu/common/util/R.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/common-util/src/main/java/com/atguigu/common/util/ResponseEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/model/system/SysImages.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-system/src/main/java/com/atguigu/system/config/OssProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-system/src/main/java/com/atguigu/system/controller/OssController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-system/src/main/java/com/atguigu/system/mapper/UserImagesMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-system/src/main/java/com/atguigu/system/service/OssService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-system/src/main/java/com/atguigu/system/service/impl/OssServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-system/src/main/resources/logback-spring.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/common-util/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common/common-util/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/spring-security/src/main/java/com/atguigu/system/filter/TokenAuthenticationFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/spring-security/src/main/java/com/atguigu/system/filter/TokenAuthenticationFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-system/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service-system/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-system/src/main/java/com/atguigu/system/controller/SysUserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-system/src/main/java/com/atguigu/system/controller/SysUserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-system/src/main/java/com/atguigu/system/security/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-system/src/main/java/com/atguigu/system/security/WebSecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-system/src/main/resources/application-dev.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/service-system/src/main/resources/application-dev.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-system/src/test/java/com/atguigu/system/FunctionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-system/src/test/java/com/atguigu/system/FunctionTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="MyBatisConfigurationFilt(Gavin)" />
+        <option value="XXXMapper.xml(Gavin)" />
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="0071d17f3c10f68b93b3fbb93a4816124aab8861" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/service-system/src/main/resources/application-dev.yaml" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/service-system/src/main/resources/application.yaml" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/service-system/src/main/resources/测试git的文件.txt" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/sqlOrigin.sql" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../../ruanjianbao/apache-maven-3.6.3" />
+        <option name="useMavenConfig" value="true" />
+        <option name="userSettingsFile" value="D:\ruanjianbao\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
+  </component>
+  <component name="ProjectId" id="2QmhnUOqkhZl4NGBkD3EJwiMrOp" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8 (2)&quot;,
+    &quot;last_directory_selection&quot;: &quot;D:/OneDrive/AtGuiGu/JavaDevelop/guigu-auth-parent/service-system/src/main/java/com/atguigu/system&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/OneDrive/AtGuiGu/JavaDevelop/homework-management/service-system/src/main/resources&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.15432101&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;2b235295e7bed7bef34deeb6d8194011&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
+    ]
+  }
+}</component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\OneDrive\AtGuiGu\JavaDevelop\homework-management\service-system\src\main\resources" />
+      <recent name="D:\OneDrive\AtGuiGu\JavaDevelop\homework-management\service-system\src\main\java\com\atguigu\system\service\impl" />
+      <recent name="D:\OneDrive\AtGuiGu\JavaDevelop\homework-management\service-system\src\main\java\com\atguigu\system\service" />
+      <recent name="D:\OneDrive\AtGuiGu\JavaDevelop\homework-management\service-system\src\main\java\com\atguigu\system\controller" />
+      <recent name="D:\OneDrive\AtGuiGu\JavaDevelop\guigu-auth-parent" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.atguigu.system" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.atguigu.common.util" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.FunctionTest.test8">
+    <configuration name="BuildTree.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="service-system" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.system.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.atguigu.system" />
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.system.BuildTree" />
+      <option name="METHOD_NAME" value="test3" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BuildTree.test4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="service-system" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.system.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.atguigu.system" />
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.system.BuildTree" />
+      <option name="METHOD_NAME" value="test4" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FunctionTest.test7" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="service-system" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.system.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.atguigu.system" />
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.system.FunctionTest" />
+      <option name="METHOD_NAME" value="test7" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FunctionTest.test8" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="service-system" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.system.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.atguigu.system" />
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.system.FunctionTest" />
+      <option name="METHOD_NAME" value="test8" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServiceAuthApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="service-system" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.system.ServiceAuthApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.system.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.FunctionTest.test8" />
+        <item itemvalue="JUnit.FunctionTest.test7" />
+        <item itemvalue="Spring Boot.ServiceAuthApplication" />
+        <item itemvalue="JUnit.BuildTree.test4" />
+        <item itemvalue="JUnit.BuildTree.test3" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cc7424d0-e257-4185-8cc8-71180c30ac47" name="Changes" comment="" />
+      <created>1685964830772</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1685964830772</updated>
+      <workItem from="1685964832265" duration="2967000" />
+      <workItem from="1686037312013" duration="13955000" />
+      <workItem from="1686053761610" duration="2133000" />
+      <workItem from="1686145803793" duration="21000" />
+      <workItem from="1686313303982" duration="2969000" />
+      <workItem from="1686363082780" duration="7112000" />
+      <workItem from="1686383402378" duration="16722000" />
+      <workItem from="1686445906042" duration="16470000" />
+      <workItem from="1686486377376" duration="52000" />
+      <workItem from="1686529157929" duration="9435000" />
+      <workItem from="1686553935632" duration="13804000" />
+      <workItem from="1686615153038" duration="21272000" />
+      <workItem from="1686665941817" duration="2051000" />
+      <workItem from="1686702065570" duration="5059000" />
+      <workItem from="1686737579660" duration="7185000" />
+      <workItem from="1686791589660" duration="16594000" />
+      <workItem from="1686821347300" duration="3940000" />
+      <workItem from="1686840174376" duration="1303000" />
+      <workItem from="1686897020503" duration="4531000" />
+      <workItem from="1686915346650" duration="4491000" />
+      <workItem from="1687072789881" duration="1156000" />
+      <workItem from="1687143377045" duration="84000" />
+      <workItem from="1688522910009" duration="244000" />
+      <workItem from="1689294533003" duration="717000" />
+      <workItem from="1694049103270" duration="27746000" />
+      <workItem from="1694138595183" duration="4502000" />
+    </task>
+    <task id="LOCAL-00001" summary="第一次推送前的commit">
+      <created>1686898313450</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1686898313450</updated>
+    </task>
+    <task id="LOCAL-00002" summary="本地仓库的第一次修改">
+      <created>1686914650470</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1686914650470</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="62517aef-420a-4e20-a31d-175f18d1e79c">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="roots">
+                    <value>
+                      <list>
+                        <option value="$PROJECT_DIR$" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="62517aef-420a-4e20-a31d-175f18d1e79c" value="TOOL_WINDOW" />
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="第一次推送前的commit" />
+    <MESSAGE value="本地仓库的第一次修改" />
+    <option name="LAST_COMMIT_MESSAGE" value="本地仓库的第一次修改" />
+  </component>
+</project>
