@@ -5,23 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc7424d0-e257-4185-8cc8-71180c30ac47" name="Changes" comment="本地仓库的第一次修改">
-      <change afterPath="$PROJECT_DIR$/common/common-util/src/main/java/com/atguigu/common/util/BusinessException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/common-util/src/main/java/com/atguigu/common/util/CookieUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/common-util/src/main/java/com/atguigu/common/util/R.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/common-util/src/main/java/com/atguigu/common/util/ResponseEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/model/system/SysImages.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-system/src/main/java/com/atguigu/system/config/OssProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-system/src/main/java/com/atguigu/system/controller/OssController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-system/src/main/java/com/atguigu/system/mapper/UserImagesMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-system/src/main/java/com/atguigu/system/service/OssService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-system/src/main/java/com/atguigu/system/service/impl/OssServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-system/src/main/resources/logback-spring.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/common-util/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common/common-util/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/spring-security/src/main/java/com/atguigu/system/filter/TokenAuthenticationFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/spring-security/src/main/java/com/atguigu/system/filter/TokenAuthenticationFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-system/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service-system/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/model/system/Homework.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-system/src/main/java/com/atguigu/system/controller/SysImageController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-system/src/main/java/com/atguigu/system/mapper/HomeworkMapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/service-system/src/main/java/com/atguigu/system/controller/SysUserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-system/src/main/java/com/atguigu/system/controller/SysUserController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/service-system/src/main/java/com/atguigu/system/security/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-system/src/main/java/com/atguigu/system/security/WebSecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-system/src/main/resources/application-dev.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/service-system/src/main/resources/application-dev.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/service-system/src/test/java/com/atguigu/system/FunctionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-system/src/test/java/com/atguigu/system/FunctionTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -34,8 +22,8 @@
       <list>
         <option value="MyBatisConfigurationFilt(Gavin)" />
         <option value="XXXMapper.xml(Gavin)" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -117,6 +105,7 @@
       <recent name="com.atguigu.system" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.atguigu.system.mapper" />
       <recent name="com.atguigu.common.util" />
     </key>
   </component>
@@ -127,23 +116,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.FunctionTest.test8">
-    <configuration name="BuildTree.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="service-system" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.atguigu.system.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.atguigu.system" />
-      <option name="MAIN_CLASS_NAME" value="com.atguigu.system.BuildTree" />
-      <option name="METHOD_NAME" value="test3" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.FunctionTest.test9">
     <configuration name="BuildTree.test4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="service-system" />
       <extension name="coverage">
@@ -192,6 +165,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="FunctionTest.test9" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="service-system" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.system.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.atguigu.system" />
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.system.FunctionTest" />
+      <option name="METHOD_NAME" value="test9" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ServiceAuthApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="service-system" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.system.ServiceAuthApplication" />
@@ -207,11 +196,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.FunctionTest.test8" />
-        <item itemvalue="JUnit.FunctionTest.test7" />
         <item itemvalue="Spring Boot.ServiceAuthApplication" />
+        <item itemvalue="JUnit.FunctionTest.test9" />
+        <item itemvalue="JUnit.FunctionTest.test7" />
+        <item itemvalue="JUnit.FunctionTest.test8" />
         <item itemvalue="JUnit.BuildTree.test4" />
-        <item itemvalue="JUnit.BuildTree.test3" />
       </list>
     </recent_temporary>
   </component>
@@ -248,7 +237,9 @@
       <workItem from="1688522910009" duration="244000" />
       <workItem from="1689294533003" duration="717000" />
       <workItem from="1694049103270" duration="27746000" />
-      <workItem from="1694138595183" duration="4502000" />
+      <workItem from="1694138595183" duration="8242000" />
+      <workItem from="1694184957118" duration="611000" />
+      <workItem from="1694229455325" duration="9575000" />
     </task>
     <task id="LOCAL-00001" summary="第一次推送前的commit">
       <created>1686898313450</created>

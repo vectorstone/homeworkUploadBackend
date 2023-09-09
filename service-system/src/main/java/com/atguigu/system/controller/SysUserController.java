@@ -166,4 +166,15 @@ public class SysUserController {
         sysUserService.removeByIds(idList);
         return Result.ok();
     }
+
+    //修改图片名称的选项也需要权限,不能所有的人都可以修改
+    @PreAuthorize("hasAnyAuthority('bnt.sysUser.update')")
+    @ApiOperation("保存用户的图片的名称")
+    @PutMapping("/saveImage")
+    public Result saveImages(@RequestBody SysImages sysImages){
+        //把修改的时间修改一下
+        sysImages.setUpdateTime(new Date());
+        userImagesMapper.updateById(sysImages);
+        return Result.ok();
+    }
 }

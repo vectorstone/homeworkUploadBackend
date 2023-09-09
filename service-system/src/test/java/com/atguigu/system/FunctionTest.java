@@ -1,6 +1,8 @@
 package com.atguigu.system;
 
 import com.atguigu.common.util.MD5;
+import com.atguigu.model.system.Homework;
+import com.atguigu.system.mapper.HomeworkMapper;
 import com.atguigu.system.mapper.SysRoleMapper;
 import com.atguigu.model.system.SysRole;
 import com.atguigu.system.mapper.SysUserRoleMapper;
@@ -12,6 +14,7 @@ import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 
+import java.util.Date;
 import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -21,7 +24,7 @@ import java.util.regex.Pattern;
  * @Author: Gavin
  * @Date: 6/6/2023 3:59 PM
  */
-// @SpringBootTest
+@SpringBootTest
 public class FunctionTest {
     @Autowired
     private SysRoleMapper sysRoleMapper;
@@ -78,7 +81,8 @@ public class FunctionTest {
     public void test7(){
         //UPDATE sys_user_role SET is_deleted=1 WHERE id=? AND is_deleted=0
         // sysUserRoleMapper.deleteById(2);
-        String encrypt = MD5.encrypt("fengge666");
+        // String encrypt = MD5.encrypt("fengge666");
+        String encrypt = MD5.encrypt("123456");
         System.out.println("encrypt = " + encrypt);
     }
     @Test
@@ -92,5 +96,17 @@ public class FunctionTest {
         if (m.find()){
             System.out.println("包含中文");
         }
+    }
+    @Autowired
+    HomeworkMapper homeworkMapper;
+    @Test
+    void test9(){
+        //手动的插入作业的名称来测试一下
+        Homework homework = new Homework();
+        homework.setName("提交订单的流程图");
+        homework.setDescription("提交订单的流程图");
+        homework.setCreateTime(new Date());
+        homework.setUpdateTime(homework.getCreateTime());
+        homeworkMapper.insert(homework);
     }
 }
