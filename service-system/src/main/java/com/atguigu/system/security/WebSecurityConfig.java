@@ -50,6 +50,8 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter{
     @Override
     public void configure(WebSecurity web) throws Exception {
         web.ignoring().antMatchers("/favicon.ico","/swagger-resources/**",
-                "/webjars/**", "/v2/**", "/doc.html","/api/oss/upload","/admin/system/sysUser","/admin/system/image/**");
+                "/webjars/**", "/v2/**", "/doc.html"
+                ,"/api/oss/upload","/admin/system/sysUser","/admin/system/image/**",
+                "/admin/system/submit/status");
     }
 }

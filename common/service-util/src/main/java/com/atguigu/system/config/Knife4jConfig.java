@@ -12,7 +12,8 @@ import springfox.documentation.service.Contact;
 import springfox.documentation.service.Parameter;
 import springfox.documentation.spi.DocumentationType;
 import springfox.documentation.spring.web.plugins.Docket;
-import springfox.documentation.swagger2.annotations.EnableSwagger2WebMvc;
+import springfox.documentation.swagger2.annotations.EnableSwagger2;
+
 
 import java.util.ArrayList;
 import java.util.List;
@@ -21,7 +22,7 @@ import java.util.List;
  * knife4j配置信息
  */
 @Configuration
-@EnableSwagger2WebMvc
+@EnableSwagger2
 public class Knife4jConfig {
 
     @Bean
@@ -45,6 +46,7 @@ public class Knife4jConfig {
                 //只显示admin路径下的页面
                 .apis(RequestHandlerSelectors.basePackage("com.atguigu"))
                 .paths(PathSelectors.regex("/admin/.*"))
+                // .paths(PathSelectors.regex("/api/.*"))
                 .build()
                 .globalOperationParameters(pars);
         return adminApi;

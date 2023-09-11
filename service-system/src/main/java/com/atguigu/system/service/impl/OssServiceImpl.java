@@ -69,7 +69,9 @@ public class OssServiceImpl implements OssService {
 
         //1.先定义文件的名字objectName
         //最终拼出来的效果类似于 avatar/2023/07/07/23423423423_xcsdf.jpg
-        String objectName = module + "-" + sysUser.getName() +  new DateTime().toString("/yyyy/MM/dd/") +
+        // String objectName = module + "-" + sysUser.getName() +  new DateTime().toString("/yyyy/MM/dd/") +
+        //230908 优化文件保存的路径,直接使用作业的名称(module),不再使用module + 用户姓名的方式
+        String objectName = module +  new DateTime().toString("/yyyy/MM/dd/") +
                 System.currentTimeMillis() + "_" + UUID.randomUUID().toString()
                 //包含开始,不包含结束
                 .substring(0,6) + file.getOriginalFilename().substring(file.getOriginalFilename()

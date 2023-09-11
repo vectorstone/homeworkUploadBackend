@@ -5,12 +5,37 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc7424d0-e257-4185-8cc8-71180c30ac47" name="Changes" comment="本地仓库的第一次修改">
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/model/system/Homework.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-system/src/main/java/com/atguigu/system/controller/SysImageController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-system/src/main/java/com/atguigu/system/mapper/HomeworkMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel-statistic/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel-statistic/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel-statistic/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel-statistic/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel-statistic/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel-statistic/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel-statistic/src/main/java/com/atguigu/excel/statistic/ExcelStatisticApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel-statistic/src/main/java/com/atguigu/excel/statistic/config/SwaggerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel-statistic/src/main/java/com/atguigu/excel/statistic/mapper/HomeworkMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel-statistic/src/main/java/com/atguigu/excel/statistic/mapper/SysUserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel-statistic/src/main/java/com/atguigu/excel/statistic/mapper/UserImagesMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel-statistic/src/main/resources/application-dev.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel-statistic/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel-statistic/src/main/resources/logback-spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/excel-statistic/src/test/java/com/atguigu/excel/statistic/ExcelStatisticApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/model/vo/Classmates.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/model/vo/ClassmatesExcel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/src/main/java/com/atguigu/model/vo/SubmitStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-system/src/main/java/com/atguigu/system/controller/ClassmatesController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-system/src/main/java/com/atguigu/system/listener/ClassmatesDataListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-system/src/main/java/com/atguigu/system/mapper/ClassmatesMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-system/src/main/java/com/atguigu/system/service/ClassmatesService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-system/src/main/java/com/atguigu/system/service/impl/ClassmatesServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-system/src/main/java/com/atguigu/system/sql.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-system/src/test/java/com/atguigu/system/ExcelStatisticApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/service-util/src/main/java/com/atguigu/system/config/Knife4jConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/service-util/src/main/java/com/atguigu/system/config/Knife4jConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/model/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/service-system/src/main/java/com/atguigu/system/controller/SysUserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-system/src/main/java/com/atguigu/system/controller/SysUserController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/service-system/src/main/java/com/atguigu/system/security/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-system/src/main/java/com/atguigu/system/security/WebSecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-system/src/test/java/com/atguigu/system/FunctionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-system/src/test/java/com/atguigu/system/FunctionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-system/src/main/java/com/atguigu/system/service/impl/OssServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-system/src/main/java/com/atguigu/system/service/impl/OssServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,51 +87,58 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8 (2)&quot;,
-    &quot;last_directory_selection&quot;: &quot;D:/OneDrive/AtGuiGu/JavaDevelop/guigu-auth-parent/service-system/src/main/java/com/atguigu/system&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/OneDrive/AtGuiGu/JavaDevelop/homework-management/service-system/src/main/resources&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.15432101&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;2b235295e7bed7bef34deeb6d8194011&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "1.8 (2)",
+    "last_directory_selection": "D:/OneDrive/AtGuiGu/JavaDevelop/guigu-auth-parent/service-system/src/main/java/com/atguigu/system",
+    "last_opened_file_path": "D:/OneDrive/AtGuiGu/JavaDevelop/jxc",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.15432101",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
+    "spring.configuration.checksum": "2b235295e7bed7bef34deeb6d8194011"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mysql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
     ]
   }
-}</component>
+}]]></component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\OneDrive\AtGuiGu\JavaDevelop\homework-management\excel-statistic\src\main\resources" />
+      <recent name="D:\OneDrive\AtGuiGu\JavaDevelop\homework-management\excel-statistic\src\main\java\com\atguigu\excel\statistic" />
       <recent name="D:\OneDrive\AtGuiGu\JavaDevelop\homework-management\service-system\src\main\resources" />
       <recent name="D:\OneDrive\AtGuiGu\JavaDevelop\homework-management\service-system\src\main\java\com\atguigu\system\service\impl" />
       <recent name="D:\OneDrive\AtGuiGu\JavaDevelop\homework-management\service-system\src\main\java\com\atguigu\system\service" />
-      <recent name="D:\OneDrive\AtGuiGu\JavaDevelop\homework-management\service-system\src\main\java\com\atguigu\system\controller" />
-      <recent name="D:\OneDrive\AtGuiGu\JavaDevelop\guigu-auth-parent" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\OneDrive\AtGuiGu\JavaDevelop\homework-management\service-system\src\main\java\com\atguigu\system" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.atguigu.excel.statistic.entity" />
       <recent name="com.atguigu.system" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.atguigu.system.mapper" />
-      <recent name="com.atguigu.common.util" />
+      <recent name="com.atguigu.excel.statistic.mapper" />
+      <recent name="com.atguigu.excel.statistic.config" />
+      <recent name="com.atguigu.excel.statistic.listener" />
+      <recent name="com.atguigu.excel.statistic.entity" />
+      <recent name="com.atguigu.model.system" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -116,8 +148,8 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.FunctionTest.test9">
-    <configuration name="BuildTree.test4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.ExcelStatisticApplicationTests.contextLoads (1)">
+    <configuration name="ExcelStatisticApplicationTests.contextLoads (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="service-system" />
       <extension name="coverage">
         <pattern>
@@ -126,40 +158,40 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.atguigu.system" />
-      <option name="MAIN_CLASS_NAME" value="com.atguigu.system.BuildTree" />
-      <option name="METHOD_NAME" value="test4" />
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.system.ExcelStatisticApplicationTests" />
+      <option name="METHOD_NAME" value="contextLoads" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FunctionTest.test7" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="service-system" />
+    <configuration name="ExcelStatisticApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="excel-statistic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.atguigu.system.*" />
+          <option name="PATTERN" value="com.atguigu.excel.statistic.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.atguigu.system" />
-      <option name="MAIN_CLASS_NAME" value="com.atguigu.system.FunctionTest" />
-      <option name="METHOD_NAME" value="test7" />
+      <option name="PACKAGE_NAME" value="com.atguigu.excel.statistic" />
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.excel.statistic.ExcelStatisticApplicationTests" />
+      <option name="METHOD_NAME" value="contextLoads" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FunctionTest.test8" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="service-system" />
+    <configuration name="ExcelStatisticApplicationTests.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="excel-statistic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.atguigu.system.*" />
+          <option name="PATTERN" value="com.atguigu.excel.statistic.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.atguigu.system" />
-      <option name="MAIN_CLASS_NAME" value="com.atguigu.system.FunctionTest" />
-      <option name="METHOD_NAME" value="test8" />
+      <option name="PACKAGE_NAME" value="com.atguigu.excel.statistic" />
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.excel.statistic.ExcelStatisticApplicationTests" />
+      <option name="METHOD_NAME" value="test2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -181,6 +213,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ExcelStatisticApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="excel-statistic" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.excel.statistic.ExcelStatisticApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ServiceAuthApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="service-system" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.system.ServiceAuthApplication" />
@@ -197,10 +236,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.ServiceAuthApplication" />
+        <item itemvalue="JUnit.ExcelStatisticApplicationTests.contextLoads (1)" />
+        <item itemvalue="JUnit.ExcelStatisticApplicationTests.contextLoads" />
+        <item itemvalue="JUnit.ExcelStatisticApplicationTests.test2" />
         <item itemvalue="JUnit.FunctionTest.test9" />
-        <item itemvalue="JUnit.FunctionTest.test7" />
-        <item itemvalue="JUnit.FunctionTest.test8" />
-        <item itemvalue="JUnit.BuildTree.test4" />
       </list>
     </recent_temporary>
   </component>
@@ -239,7 +278,12 @@
       <workItem from="1694049103270" duration="27746000" />
       <workItem from="1694138595183" duration="8242000" />
       <workItem from="1694184957118" duration="611000" />
-      <workItem from="1694229455325" duration="9575000" />
+      <workItem from="1694229455325" duration="14023000" />
+      <workItem from="1694267000820" duration="1017000" />
+      <workItem from="1694308854031" duration="1194000" />
+      <workItem from="1694316842261" duration="15435000" />
+      <workItem from="1694357751048" duration="4167000" />
+      <workItem from="1694391977463" duration="5559000" />
     </task>
     <task id="LOCAL-00001" summary="第一次推送前的commit">
       <created>1686898313450</created>
@@ -307,5 +351,10 @@
     <MESSAGE value="第一次推送前的commit" />
     <MESSAGE value="本地仓库的第一次修改" />
     <option name="LAST_COMMIT_MESSAGE" value="本地仓库的第一次修改" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/homework_management$ExcelStatisticApplicationTests_test2.ic" NAME="ExcelStatisticApplicationTests.test2 Coverage Results" MODIFIED="1694330933612" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.atguigu.excel.statistic.*</FILTER>
+    </SUITE>
   </component>
 </project>

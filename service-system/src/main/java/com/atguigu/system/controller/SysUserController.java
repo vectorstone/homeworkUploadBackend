@@ -2,6 +2,7 @@ package com.atguigu.system.controller;
 
 import com.atguigu.common.result.Result;
 import com.atguigu.common.util.MD5;
+import com.atguigu.common.util.R;
 import com.atguigu.model.system.SysImages;
 import com.atguigu.model.system.SysUser;
 import com.atguigu.model.system.SysUserRole;
@@ -11,7 +12,6 @@ import com.atguigu.system.mapper.UserImagesMapper;
 import com.atguigu.system.service.SysUserService;
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.core.toolkit.Wrappers;
-import com.baomidou.mybatisplus.extension.api.R;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
