@@ -1,0 +1,54 @@
+# --------------服务器端口配置-----------------
+server:
+  port: 8800
+#  error:
+#    include-message: always
+#    include-exception: true
+#-------------------------
+# -------------mybatis plus日志记录的配置------------------
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+  type-aliases-package: com.atguigu.model.system
+# --------------数据库连接池的配置-----------------
+spring:
+  servlet:
+    multipart:
+      # 一次请求的所有文件表单项文件总大小
+      max-request-size: 50MB
+      # 单个文件表单项文件大小限制 10MB
+      max-file-size: 10MB
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://124.222.220.45:32768/guigu-auth
+    username: ENC(+UqVvXNR//wSI0Qp1xAh/PLrJKYjgnhAoyL5BAvngMvInTuxcijGEkaqtjjfUN8d)
+    password: ENC(vqUawoWuP0ai73FSET+uU4hQN8gELwUediXJ41S86h2zc6G09JV8VqkwdE/89tn0Ntt3uu8kjao8dfuFf4qtHg==)
+  # --------------时间日期格式化-----------------
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+    time-zone: GMT+8
+# ---------------redis连接的相关信息----------------
+  redis:
+    host: 124.222.220.45
+#    host: 192.168.100.2
+    port: 6379
+    database: 0
+    timeout: 1800000
+    password: ENC(XC2ObTM80vSAsUNA5uTAjMp4OEg09wYpXsVXJS1xm62fZN3dcdocryBJpa6qbMTm)
+    jedis:
+      pool:
+        max-active: 20 #最大连接数
+        max-wait: -1    #最大阻塞等待时间(负数表示没限制)
+        max-idle: 5    #最大空闲
+        min-idle: 0     #最小空闲
+# -------------------------------
+aliyun:
+  oss:
+    schema: https://
+    endpoint: oss-cn-shanghai.aliyuncs.com
+    bucketName: srb-file-230309-gavin-2
+    #accessKeyId: 不安全,不使用这种方式
+    #accessKeySecret: 不安全,不使用这种方式
+jasypt:
+  encryptor:
+    password: ${JASYPT_PASS}

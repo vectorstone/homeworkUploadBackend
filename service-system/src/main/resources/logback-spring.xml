@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <configuration  scan="true" scanPeriod="10 seconds">
     <contextName>logback</contextName>
-    <property name="log.path" value="D:/srb/core" />
+    <property name="log.path" value="logs/srb/core" />
     <!--控制台日志格式：彩色日志-->
     <!-- magenta:洋红 -->
     <!-- boldMagenta:粗红-->
