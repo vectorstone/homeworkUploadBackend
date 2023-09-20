@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cc7424d0-e257-4185-8cc8-71180c30ac47" name="Changes" comment="本地仓库的第一次修改" />
+    <list default="true" id="cc7424d0-e257-4185-8cc8-71180c30ac47" name="Changes" comment="本地仓库的第一次修改">
+      <change beforePath="$PROJECT_DIR$/service-system/src/test/java/com/atguigu/system/FunctionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-system/src/test/java/com/atguigu/system/FunctionTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -116,7 +118,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ExcelStatisticApplicationTests.contextLoads (1)">
+  <component name="RunManager" selected="JUnit.FunctionTest.test10">
     <configuration name="ExcelStatisticApplicationTests.contextLoads (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="service-system" />
       <extension name="coverage">
@@ -165,7 +167,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FunctionTest.test9" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FunctionTest.test10" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="service-system" />
       <extension name="coverage">
         <pattern>
@@ -175,7 +177,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.atguigu.system" />
       <option name="MAIN_CLASS_NAME" value="com.atguigu.system.FunctionTest" />
-      <option name="METHOD_NAME" value="test9" />
+      <option name="METHOD_NAME" value="test10" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -203,11 +205,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.FunctionTest.test10" />
         <item itemvalue="Spring Boot.ServiceAuthApplication" />
         <item itemvalue="JUnit.ExcelStatisticApplicationTests.contextLoads (1)" />
         <item itemvalue="JUnit.ExcelStatisticApplicationTests.contextLoads" />
         <item itemvalue="JUnit.ExcelStatisticApplicationTests.test2" />
-        <item itemvalue="JUnit.FunctionTest.test9" />
       </list>
     </recent_temporary>
   </component>
@@ -257,6 +259,11 @@
       <workItem from="1694510268012" duration="2672000" />
       <workItem from="1694521341515" duration="283000" />
       <workItem from="1694527879609" duration="289000" />
+      <workItem from="1694662575038" duration="3286000" />
+      <workItem from="1694673397422" duration="16000" />
+      <workItem from="1694741169462" duration="1258000" />
+      <workItem from="1694826034251" duration="2048000" />
+      <workItem from="1694913470070" duration="332000" />
     </task>
     <task id="LOCAL-00001" summary="第一次推送前的commit">
       <created>1686898313450</created>

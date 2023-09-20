@@ -9,11 +9,13 @@ import com.atguigu.system.mapper.SysUserRoleMapper;
 import com.atguigu.system.service.SysRoleService;
 import com.baomidou.mybatisplus.core.conditions.Wrapper;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
+import io.netty.buffer.ByteBuf;
 import org.apache.commons.lang3.StringUtils;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 
+import java.util.Base64;
 import java.util.Date;
 import java.util.List;
 import java.util.regex.Matcher;
@@ -24,7 +26,7 @@ import java.util.regex.Pattern;
  * @Author: Gavin
  * @Date: 6/6/2023 3:59 PM
  */
-@SpringBootTest
+// @SpringBootTest
 public class FunctionTest {
     @Autowired
     private SysRoleMapper sysRoleMapper;
@@ -108,5 +110,12 @@ public class FunctionTest {
         homework.setCreateTime(new Date());
         homework.setUpdateTime(homework.getCreateTime());
         homeworkMapper.insert(homework);
+    }
+    @Test
+    void test10(){
+        String str = "YW5naHVua0BnbWFpbC5jb20=";
+        byte[] decode = Base64.getDecoder().decode(str);
+        String s = new String(decode);
+        System.out.println("s = " + s);
     }
 }
